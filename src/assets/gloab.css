@@ -1,0 +1,26 @@
+
+/**
+设置全局样式
+ */
+
+/*去掉边框*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*设置全局高度*/
+html,body {
+    height: 100%;
+}
+
+/*搜索框的基本样式大小*/
+.ml-5{
+    margin-left: 5px;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.pd-10{
+    padding: 10px 0;
+}
