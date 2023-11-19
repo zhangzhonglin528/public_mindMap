@@ -11,7 +11,9 @@
     "start": "vue-cli-service serve"
   },
   "dependencies": {
+    "@toast-ui/vue-editor": "^3.2.3",
     "axios": "^0.27.2",
+    "compression-webpack-plugin": "^10.0.0",
     "core-js": "^3.8.3",
     "echarts": "^5.4.3",
     "element-ui": "^2.15.13",
@@ -22,8 +24,10 @@
     "vue-avatar": "^2.3.3",
     "vue-circular-progress": "^1.0.0",
     "vue-code-diff": "^1.2.0",
+    "vue-i18n": "^8.28.2",
     "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

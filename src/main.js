@@ -6,6 +6,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import './assets/gloab.css';
 import request from "@/utils/request";
+import i18n from "@/components/SimpleMindMap/i18n";
 
 Vue.use(ElementUI, { size: 'mini'})
 
@@ -17,5 +18,6 @@ Vue.prototype.request = request()
 new Vue({
   router,
   store,
+  i18n,
   render: h => h(App)
 }).$mount('#app')
